@@ -31,4 +31,4 @@ Remove the default `cube` scene by following the [instructions](https://blender.
 Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
 
 ## Validate
-To validate the exported `.gltf` and `.bin` select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
+To validate the exported `.gltf` and `.bin`, select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
