@@ -32,3 +32,6 @@ Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`.
 
 ## Validate
 To validate the exported `.gltf` and `.bin`, select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
+
+## Licence
+Released under the MIT licence, further details available in the included `LICENCE`.
