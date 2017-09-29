@@ -6,6 +6,9 @@ Based on the ideas of [2gltf2](https://github.com/ux3d/2gltf2) by [Norbert Noppe
 
 Please note that the current version is highly experimental. Do not use this in your production workflow as of now. 
 
+## Run
+Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
+
 ![.obj to .gltf bunny in glTF viewer](example/bunny.jpg)
 
 ## General
@@ -28,9 +31,6 @@ You should now be able to export scenes as glTF from the dropdown menu `File -> 
 
 ## Preperation
 Remove the default `cube` scene by following the [instructions](https://blender.stackexchange.com/questions/5574/how-to-remove-the-default-cube) otherwise you will have an extra cube in your export.
-
-## Exporting
-Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
 
 ## Validate
 To validate the exported `.gltf` and `.bin`, select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
