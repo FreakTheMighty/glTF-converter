@@ -1,0 +1,113 @@
+{
+    "accessors" : [
+        {
+            "bufferView" : 0, 
+            "componentType" : 5123, 
+            "count" : 14904, 
+            "max" : [
+                14903
+            ], 
+            "min" : [
+                0
+            ], 
+            "type" : "SCALAR"
+        }, 
+        {
+            "bufferView" : 1, 
+            "componentType" : 5126, 
+            "count" : 14904, 
+            "max" : [
+                0.06077880039811134, 
+                0.05871463939547539, 
+                -0.033309899270534515
+            ], 
+            "min" : [
+                -0.09438042342662811, 
+                -0.0616791695356369, 
+                -0.18699601292610168
+            ], 
+            "type" : "VEC3"
+        }, 
+        {
+            "bufferView" : 2, 
+            "componentType" : 5126, 
+            "count" : 14904, 
+            "max" : [
+                0.9993025660514832, 
+                0.9996818900108337, 
+                0.999970555305481
+            ], 
+            "min" : [
+                -0.999713122844696, 
+                -0.9992835521697998, 
+                -0.99972003698349
+            ], 
+            "type" : "VEC3"
+        }
+    ], 
+    "asset" : {
+        "generator" : "Khronos Blender glTF 2.0 exporter", 
+        "version" : "2.0"
+    }, 
+    "bufferViews" : [
+        {
+            "buffer" : 0, 
+            "byteLength" : 29808, 
+            "byteOffset" : 0, 
+            "target" : 34963
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 178848, 
+            "byteOffset" : 29808, 
+            "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 178848, 
+            "byteOffset" : 208656, 
+            "target" : 34962
+        }
+    ], 
+    "buffers" : [
+        {
+            "byteLength" : 387504, 
+            "uri" : "bunny.bin"
+        }
+    ], 
+    "meshes" : [
+        {
+            "name" : "bunny", 
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "NORMAL" : 2, 
+                        "POSITION" : 1
+                    }, 
+                    "indices" : 0
+                }
+            ]
+        }
+    ], 
+    "nodes" : [
+        {
+            "mesh" : 0, 
+            "name" : "bunny", 
+            "rotation" : [
+                0.7071068286895752, 
+                0.0, 
+                -0.0, 
+                0.7071067094802856
+            ]
+        }
+    ], 
+    "scene" : 0, 
+    "scenes" : [
+        {
+            "name" : "Scene", 
+            "nodes" : [
+                0
+            ]
+        }
+    ]
+}
