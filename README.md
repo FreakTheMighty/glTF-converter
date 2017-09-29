@@ -6,6 +6,8 @@ Based on the ideas of [2gltf2](https://github.com/ux3d/2gltf2) by [Norbert Noppe
 
 Please note that the current version is highly experimental. Do not use this in your production workflow as of now. 
 
+![.obj to .gltf bunny in glTF viewer](example/bunny.jpg)
+
 ## General
 
 Uses [Blender](https://www.blender.org/download/) and [glTF Blender Exporter](https://github.com/KhronosGroup/glTF-Blender-Exporter).
