@@ -1,5 +1,7 @@
 # glTF converter
 
+A `BLEND`, `COLLADA`, `FBX` and `OBJ` to `GLTF2` converter using Blender.
+
 Based on the ideas of [2gltf2](https://github.com/ux3d/2gltf2). I wasn't able to get their repo working on MacOS and it was missing installation instructions.
 
 Please note that the current version is highly experimental. Do not use this in your production workflow as of now. 
@@ -22,8 +24,11 @@ Place `io_scene_gltf2` in there. Open `Blender -> File -> User preferences -> Ad
 
 You should now be able to export scenes as glTF from the dropdown menu `File -> glTF 2.0 (.glb)` and `glTF 2.0 (.gltf)`.
 
-## Exporting
+## Preperation
 Remove the default `cube` scene by following the [instructions](https://blender.stackexchange.com/questions/5574/how-to-remove-the-default-cube).
+
+## Exporting
+Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
 
 ## Validate
 To validate the exported `.gltf` and `.bin` select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
