@@ -1,4 +1,4 @@
-# glTF converter
+# glTF-converter
 
 A `BLEND`, `COLLADA`, `FBX` and `OBJ` to `GLTF2` converter using `Blender` and `glTF-Blender-Exporter`.
 
