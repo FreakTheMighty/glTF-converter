@@ -1,6 +1,6 @@
 # glTF-converter
 
-A `BLEND`, `COLLADA`, `FBX` and `OBJ` to `GLTF2` converter using `Blender` and `glTF-Blender-Exporter`.
+A `BLEND (.blend)`, `COLLADA (.dae)`, `FBX (.fbx)` and `OBJ (.obj)` to `glTF2 (.gltf)` converter using `Blender` and `glTF-Blender-Exporter`.
 
 Based on the ideas of [2gltf2](https://github.com/ux3d/2gltf2) by [Norbert Nopper](https://twitter.com/McNopper). I wasn't able to get their repo working on MacOS and it was missing installation instructions.
 
