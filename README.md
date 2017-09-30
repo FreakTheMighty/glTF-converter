@@ -19,9 +19,11 @@ Uses [Blender](https://www.blender.org/download/) and [glTF Blender Exporter](ht
 Installation instructions can be found on [glTF Blender Exporter Scripts](https://github.com/KhronosGroup/glTF-Blender-Exporter/tree/master/scripts).
 
 ## Specific installation instructions for Mac
-Copy `io_scene_gltf2` from [glTF Blender Exporter Addons](https://github.com/KhronosGroup/glTF-Blender-Exporter/tree/master/scripts/addons).
+Install [Blender](https://www.blender.org/download/) and drag to the `Applications` folder. On install a binary should be written to `/usr/local/bin/blender` that can be verified using `which blender`.
 
 Open Blender and see if it starts correctly. If you do these adjustments before opening Blender you will likely run into a verification hash issue that MacOS does on every install.
+
+Copy `io_scene_gltf2` from [glTF Blender Exporter Addons](https://github.com/KhronosGroup/glTF-Blender-Exporter/tree/master/scripts/addons).
 
 Select `Blender` and right click `show package contents -> Contents -> Resources -> 2.79 -> scripts -> addons`.
 
