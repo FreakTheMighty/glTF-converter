@@ -1,3 +1,6 @@
+# Example usage
+# blender -b -P gltf-converter.py -- example/bunny.obj example/bunny.gltf
+
 import bpy
 import os
 import sys
