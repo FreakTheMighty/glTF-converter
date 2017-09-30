@@ -10,7 +10,6 @@ outputFile = argv[2]
 inputFilename, inputFileExtension = os.path.splitext(inputFile)
 
 def convert(extension):
-    print(extension)
     if extension == ".blend":
         bpy.ops.wm.open_mainfile(filepath=inputFile)
     elif extension == ".dae":
