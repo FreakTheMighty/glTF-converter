@@ -33,7 +33,7 @@ You should now be able to export scenes as glTF from the dropdown menu `File -> 
 Remove the default `cube` scene by following the [instructions](https://blender.stackexchange.com/questions/5574/how-to-remove-the-default-cube) otherwise you will have an extra cube in your export.
 
 ## Validate
-To validate the exported `.gltf` and `.bin`, select both and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
+To validate the exported `.gltf` and `.bin`, select both (include textures if your model has them) and drag and drop them into the [glTF Viewer](https://gltf-viewer.donmccurdy.com/).
 
 ## Licence
 Released under the MIT licence, further details available in the included `LICENCE`.
