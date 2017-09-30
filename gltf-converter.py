@@ -4,8 +4,8 @@ import sys
 
 argv = sys.argv
 argv = argv[argv.index("--") + 1:]
-inputFile = argv[1]
-outputFile = argv[2]
+inputFile = argv[0]
+outputFile = argv[1]
 
 inputFilename, inputFileExtension = os.path.splitext(inputFile)
 

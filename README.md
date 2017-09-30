@@ -2,12 +2,14 @@
 
 A `BLEND`, `COLLADA`, `FBX` and `OBJ` to `GLTF2` converter using [Blender](https://www.blender.org/download/) and [glTF Blender Exporter](https://github.com/KhronosGroup/glTF-Blender-Exporter).
 
+`3ds` is currently not supported as it does not convert correctly.
+
 Based on the ideas of [2gltf2](https://github.com/ux3d/2gltf2) by [Norbert Nopper](https://twitter.com/McNopper). I wasn't able to get their repo working on MacOS and it was missing installation instructions.
 
 Please note that the current version is highly experimental. Do not use this in your production workflow as of now. 
 
 ## Run
-Run `./gltf-converter` or `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
+Run `blender -b -P gltf-converter.py -- <input> <output>`. A `.gltf` file and a `.bin` file will be written.
 
 ![.obj to .gltf bunny in glTF viewer](example/bunny.jpg)
 
