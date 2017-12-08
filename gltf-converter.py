@@ -9,6 +9,7 @@ argv = sys.argv
 argv = argv[argv.index("--") + 1:]
 inputFile = argv[0]
 outputFile = argv[1]
+tempscene = '/tmp/temp.blend'
 
 inputFilename, inputFileExtension = os.path.splitext(inputFile)
 
