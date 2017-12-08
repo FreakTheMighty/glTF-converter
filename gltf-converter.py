@@ -24,6 +24,9 @@ def convert(extension):
     else:
         sys.exit('.blend, .dae, .fbx, .obj are supported')
     
+    # Hack to deal with embedded FBX media not loading
+    bpy.ops.wm.save_mainfile(filepath=tempscene)
+    bpy.ops.wm.open_mainfile(filepath=tempscene)
     bpy.ops.export_scene.gltf(filepath=outputFile)
 
 convert(inputFileExtension)
